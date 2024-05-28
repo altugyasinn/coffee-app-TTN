@@ -1,5 +1,6 @@
 # **Coffee App**
 
+🍀 
 
 ## products
 
@@ -15,7 +16,7 @@ Kahvelerin olusturuldugu listelendigi alanlari icerir.
 
 #### Uygulanabilecek bir veri ornegi: (`*` isareti bos birakilmamasi gereken alanlari isaret eder.)
 
-"`
+“`
 {
     "title": "moinese", `*`
     "category_id": 2, `*`
@@ -26,9 +27,8 @@ Kahvelerin olusturuldugu listelendigi alanlari icerir.
     "origin": "South Africa",
     "roast_level": "Tough",
     "flavor_notes": "Daisy, Vanilla"
-
 }
-"`
+“`
 
 ### Get All Coffees
 
@@ -57,7 +57,7 @@ Urun ile ilgili miktar arttirma/azaltma ya da urunu silme gibi islemlerin yapild
 
 #### Uygulanabilecek bir veri ornegi: (`*` isareti bos birakilmamasi gereken alanlari isaret eder.)
 
-"`
+“`
 {
     "payment_status": "COMPLETED",
     "lineItems": [ 
@@ -73,7 +73,7 @@ Urun ile ilgili miktar arttirma/azaltma ya da urunu silme gibi islemlerin yapild
         }
     ] `*`
 }
-"`
+“`
 
 ### Get Basket By Id
 
@@ -99,7 +99,7 @@ Kupon kodu sorgulama, e-mail adresi girerek mail servisini kullanma islemlerin y
 #### Uygulanabilecek bir veri ornegi: (`*` isareti bos birakilmamasi gereken alanlari isaret eder.)
 
 
-"`
+“`
 {
     "basket_id": 28, `*`
     "email": "altugyasindurmus@gmail.com", `*`
@@ -109,7 +109,7 @@ Kupon kodu sorgulama, e-mail adresi girerek mail servisini kullanma islemlerin y
         }
     ]
 }
-"`
+“`
 
 
 
